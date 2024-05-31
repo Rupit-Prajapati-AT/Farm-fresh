@@ -1304,6 +1304,7 @@ ol {
 	overflow: hidden;
 }
 
+.product__item__pic  .product__discount__percent ,
 .product__discount__item__pic .product__discount__percent {
 	height: 45px;
 	width: 45px;
