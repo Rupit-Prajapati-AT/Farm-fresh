@@ -221,11 +221,10 @@
             <div class="row">
                 <div class="col-lg-3 col-md-5">
                     <div class="sidebar">
+                        <form action="#" method="get">
                         <div class="hero__search__form">
-                            <form action="#">
                                 <input type="text" placeholder="Search product here..." wfd-id="id0">
                                 <!-- <button type="submit" class="site-btn"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-                            </form>
                         </div>
                         <div class="sidebar__item">
                             <h4>Price</h4>
@@ -239,8 +238,8 @@
                                 </div>
                                 <div class="range-slider">
                                     <div class="price-input">
-                                        <input type="text" id="minamount">
-                                        <input type="text" id="maxamount">
+                                        <input type="text" name="range" id="minamount">
+                                        <input type="text" name="range" id="maxamount">
                                     </div>
                                 </div>
                             </div>
@@ -248,7 +247,7 @@
                         <div class="sidebar__item">
                             <h4>Department</h4>
                             <ul>
-                                <li><label><input type="checkbox" name="" id="">Fresh Meat</label></li>
+                                <li><label><input type="checkbox" name="meat" id="">Fresh Meat</label></li>
                                 <li><label><input type="checkbox" name="" id="">Vegetables</label></li>
                                 <li><label><input type="checkbox" name="" id="">Fruit & Nut Gifts</label></li>
                                 <li><label><input type="checkbox" name="" id="">Fresh Berries</label></li>
@@ -271,7 +270,7 @@
                         <div class="sidebar__item">
                             <h4>Customer Rating</h4>
                             <ul>
-                                <li><label><input type="checkbox" name="" id="">1<i class="fa-solid fa-star"></i></label></li>
+                                <li><label><input type="checkbox" name="star" id="">1<i class="fa-solid fa-star"></i></label></li>
                                 <li><label><input type="checkbox" name="" id="">2<i class="fa-solid fa-star"></i></label></li>
                                 <li><label><input type="checkbox" name="" id="">3<i class="fa-solid fa-star"></i></label></li>
                                 <li><label><input type="checkbox" name="" id="">4<i class="fa-solid fa-star"></i></label></li>
@@ -279,9 +278,10 @@
                             </ul>
                         </div>
                         <div class="btn-group">
-                            <button type="submit" class="site-btn">Reset</button>
+                            <button type="reset" class="site-btn">Reset</button>
                             <button type="submit" class="site-btn">Submit</button>
                         </div>
+                    </form>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-7">
