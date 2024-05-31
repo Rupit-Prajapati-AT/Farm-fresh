@@ -661,6 +661,11 @@ ol {
 	padding-right: 20px;
 }
 
+.sidebar .btn-group {
+	display: flex;
+	gap: 10px;
+}
+
 .hero__search__form form .hero__search__categories {
 	width: 30%;
 	float: left;
@@ -1434,8 +1439,8 @@ ol {
 }
 
 .filter__item {
-	padding-top: 45px;
-	border-top: 1px solid #ebebeb;
+	/* padding-top: 45px; */
+	/* border-top: 1px solid #ebebeb; */
 	padding-bottom: 20px;
 }
 
