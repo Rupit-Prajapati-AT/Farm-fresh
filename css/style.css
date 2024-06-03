@@ -761,7 +761,7 @@ ol {
 	color: #7fad39;
 }
 
-.hero__text h2 {
+.hero__text h1 {
 	font-size: 46px;
 	color: #252525;
 	line-height: 52px;
@@ -1064,7 +1064,7 @@ ol {
 	padding: 45px 0 40px;
 }
 
-.breadcrumb__text h2 {
+.breadcrumb__text h1 {
 	font-size: 46px;
 	color: #ffffff;
 	font-weight: 700;
@@ -2500,7 +2500,7 @@ ol {
 	text-align: center;
 }
 
-.blog__details__hero__text h2 {
+.blog__details__hero__text h1 {
 	font-size: 46px;
 	color: #ffffff;
 	font-weight: 700;
