@@ -7,3 +7,4 @@
 ### https://farm-fresh-delta.vercel.app/blog-details.html
 ### https://farm-fresh-delta.vercel.app/blog.html
 ### https://farm-fresh-delta.vercel.app/contact.html
+### https://farm-fresh-delta.vercel.app/page.html
